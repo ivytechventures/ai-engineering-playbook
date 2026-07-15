@@ -97,6 +97,13 @@ The short version for a QA reader: functional correctness of the server is neces
 
 -- SOON
 
+## Practical Notes
+
+- MCP is not another LLM.
+- Think of it as USB for AI.
+- Prefer HTTP Streamable transport for new applications.
+- Keep business logic inside the MCP server, not in prompts.
+
 ## Common Interview Questions
 
 - What problem does MCP solve that direct API integration doesn't?

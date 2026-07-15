@@ -95,7 +95,7 @@ The short version for a QA reader: functional correctness of the server is neces
 
 ## My Implementation
 
-*(placeholder — fill in as you build against `projects/mcp-playground/`. Good things to capture here once you have them: which transport you chose and why, what tools/resources you exposed, any auth headaches, and what broke first when you actually pointed a real model at it.)*
+-- SOON
 
 ## Common Interview Questions
 

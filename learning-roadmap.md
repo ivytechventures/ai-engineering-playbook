@@ -16,7 +16,7 @@ Goal: solid enough DSA and systems fundamentals to not get blocked in interviews
 
 - [ ] `algorithms/arrays/`
 - [ ] `algorithms/strings/`
-- [ ] `algorithms/hash-maps/`
+- [~] `algorithms/hash-maps/`
 - [ ] `algorithms/linked-lists/`
 - [ ] `algorithms/stacks-queues/`
 - [ ] `algorithms/trees/`
@@ -103,10 +103,3 @@ These don't follow the phase structure — they run continuously alongside whate
 - [ ] `assets/` — diagrams, images, cheatsheets supporting the above
 
 ---
-
-## Status
-
-- **Last updated:** — July 14, 2026
-- **Current phase / focus:** — 
-- **Recently completed:** —
-- **Next up:** —

@@ -10,96 +10,118 @@ Study plan and progress tracker for the AI Engineer Playbook. This is a living d
 
 ---
 
-## Phase 1 — Foundations (algorithms + software-engineering)
+## Phase 1 — Mathematics (01-mathematics/)
 
-Goal: solid enough DSA and systems fundamentals to not get blocked in interviews or in reading production AI infra code.
+Goal: the mathematical foundations underneath both classical ML and modern GenAI. *(subtopics TBD — break this down further once the specific areas to cover are decided, e.g. linear algebra, probability/statistics, calculus.)*
 
-- [ ] `algorithms/arrays/`
-- [ ] `algorithms/strings/`
-- [~] `algorithms/hash-maps/`
-- [ ] `algorithms/linked-lists/`
-- [ ] `algorithms/stacks-queues/`
-- [ ] `algorithms/trees/`
-- [ ] `algorithms/graphs/`
-- [ ] `algorithms/heaps/`
-- [ ] `algorithms/greedy/`
-- [ ] `algorithms/dynamic-programming/`
-- [ ] `algorithms/patterns/` (sliding window, two pointers, binary search variants, etc.)
-- [ ] `software-engineering/system-design/`
-- [ ] `software-engineering/architecture/`
-- [ ] `software-engineering/api-design/`
-- [ ] `software-engineering/databases/`
-- [ ] `software-engineering/caching/`
-- [ ] `software-engineering/distributed-systems/`
-- [ ] `software-engineering/event-driven/`
-- [ ] `software-engineering/testing/`
-- [ ] `software-engineering/security/`
-- [ ] `software-engineering/ci-cd/`
+- [ ] `01-mathematics/`
 
-## Phase 2 — Classical ML grounding (machine-learning)
+## Phase 2 — Computer Science (02-computer-science/)
+
+Goal: solid enough DSA and interview patterns to not get blocked in interviews or in reading production AI infra code.
+
+- [ ] `02-computer-science/arrays/`
+- [ ] `02-computer-science/strings/`
+- [ ] `02-computer-science/hash-maps/`
+- [ ] `02-computer-science/linked-lists/`
+- [ ] `02-computer-science/stacks-queues/`
+- [ ] `02-computer-science/trees/`
+- [ ] `02-computer-science/graphs/`
+- [ ] `02-computer-science/heaps/`
+- [ ] `02-computer-science/greedy/`
+- [ ] `02-computer-science/dynamic-programming/`
+- [ ] `02-computer-science/patterns/` (sliding window, two pointers, binary search variants, etc.)
+
+## Phase 3 — Software Engineering (03-software-engineering/)
+
+Goal: core backend and systems knowledge.
+
+- [ ] `03-software-engineering/architecture/`
+- [ ] `03-software-engineering/api-design/`
+- [ ] `03-software-engineering/databases/`
+- [ ] `03-software-engineering/caching/`
+- [ ] `03-software-engineering/distributed-systems/`
+- [ ] `03-software-engineering/event-driven/`
+- [ ] `03-software-engineering/testing/`
+- [ ] `03-software-engineering/security/`
+- [ ] `03-software-engineering/ci-cd/`
+
+## Phase 4 — Network Science (04-network-science/)
+
+Goal: TBD — new addition to the path. *(fill in scope once decided, e.g. graph/network theory, distributed networking fundamentals, or social/information network analysis.)*
+
+- [ ] `04-network-science/`
+
+## Phase 5 — Machine Learning (05-machine-learning/)
 
 Goal: enough traditional ML to understand what GenAI is built on top of, and to speak fluently about evaluation, drift, and production concerns — this is also where prior QA instincts transfer most directly.
 
-- [ ] `machine-learning/fundamentals/`
-- [ ] `machine-learning/supervised-learning/`
-- [ ] `machine-learning/unsupervised-learning/`
-- [ ] `machine-learning/feature-engineering/`
-- [ ] `machine-learning/evaluation-metrics/`
-- [ ] `machine-learning/drift/`
-- [ ] `machine-learning/monitoring/`
-- [ ] `machine-learning/experimentation/`
-- [ ] `machine-learning/production/`
+- [ ] `05-machine-learning/fundamentals/`
+- [ ] `05-machine-learning/supervised-learning/`
+- [ ] `05-machine-learning/unsupervised-learning/`
+- [ ] `05-machine-learning/feature-engineering/`
+- [ ] `05-machine-learning/evaluation-metrics/`
+- [ ] `05-machine-learning/drift/`
+- [ ] `05-machine-learning/monitoring/`
+- [ ] `05-machine-learning/experimentation/`
+- [ ] `05-machine-learning/production/`
 
-## Phase 3 — Modern GenAI stack (ai-engineering)
+## Phase 6 — AI Engineering (06-ai-engineering/)
 
 Goal: working understanding of the full LLM application stack, from raw model behavior up through agentic systems.
 
-- [x] `ai-engineering/mcp/introduction.md`
-- [ ] `ai-engineering/llms/transformers.md`
-- [ ] `ai-engineering/llms/tokenization.md`
-- [ ] `ai-engineering/llms/context-window.md`
-- [ ] `ai-engineering/llms/inference.md`
-- [ ] `ai-engineering/llms/prompting.md`
-- [ ] `ai-engineering/prompt-engineering/`
-- [ ] `ai-engineering/tool-calling/`
-- [ ] `ai-engineering/mcp/architecture.md`
-- [ ] `ai-engineering/mcp/host-client-server.md`
-- [ ] `ai-engineering/mcp/tools-resources-prompts.md`
-- [ ] `ai-engineering/mcp/transport.md`
-- [ ] `ai-engineering/mcp/authentication.md`
-- [ ] `ai-engineering/mcp/building-a-server.md`
-- [ ] `ai-engineering/mcp/testing.md`
-- [ ] `ai-engineering/mcp/debugging.md`
-- [ ] `ai-engineering/mcp/production.md`
-- [ ] `ai-engineering/rag/`
-- [ ] `ai-engineering/embeddings/`
-- [ ] `ai-engineering/vector-databases/`
-- [ ] `ai-engineering/ai-agents/`
-- [ ] `ai-engineering/memory/`
-- [ ] `ai-engineering/orchestration/`
+- [x] `06-ai-engineering/mcp/introduction.md`
+- [ ] `06-ai-engineering/llms/transformers.md`
+- [ ] `06-ai-engineering/llms/tokenization.md`
+- [ ] `06-ai-engineering/llms/context-window.md`
+- [ ] `06-ai-engineering/llms/inference.md`
+- [ ] `06-ai-engineering/llms/prompting.md`
+- [ ] `06-ai-engineering/prompt-engineering/`
+- [ ] `06-ai-engineering/tool-calling/`
+- [ ] `06-ai-engineering/mcp/architecture.md`
+- [ ] `06-ai-engineering/mcp/host-client-server.md`
+- [ ] `06-ai-engineering/mcp/tools-resources-prompts.md`
+- [ ] `06-ai-engineering/mcp/transport.md`
+- [ ] `06-ai-engineering/mcp/authentication.md`
+- [ ] `06-ai-engineering/mcp/building-a-server.md`
+- [ ] `06-ai-engineering/mcp/testing.md`
+- [ ] `06-ai-engineering/mcp/debugging.md`
+- [ ] `06-ai-engineering/mcp/production.md`
+- [ ] `06-ai-engineering/rag/`
+- [ ] `06-ai-engineering/embeddings/`
+- [ ] `06-ai-engineering/vector-databases/`
+- [ ] `06-ai-engineering/ai-agents/`
+- [ ] `06-ai-engineering/memory/`
+- [ ] `06-ai-engineering/orchestration/`
 
-## Phase 4 — AI testing and evaluation (ai-testing)
+## Phase 7 — AI Testing (07-ai-testing/)
 
-Goal: this is the specialization — treat it as the payoff phase where the QA background and the AI engineering knowledge from Phase 3 combine.
+Goal: this is the specialization — treat it as the payoff phase where the QA background and the AI engineering knowledge from Phase 6 combine.
 
-- [ ] `ai-testing/model-behavior/`
-- [ ] `ai-testing/hallucinations.md`
-- [ ] `ai-testing/prompt-regression.md`
-- [ ] `ai-testing/evaluation-frameworks.md`
-- [ ] `ai-testing/benchmark-datasets.md`
-- [ ] `ai-testing/automation.md`
-- [ ] `ai-testing/observability.md`
-- [ ] `ai-testing/safety.md`
-- [ ] `ai-testing/case-studies/`
+- [ ] `07-ai-testing/model-behavior/`
+- [ ] `07-ai-testing/hallucinations.md`
+- [ ] `07-ai-testing/prompt-regression.md`
+- [ ] `07-ai-testing/evaluation-frameworks.md`
+- [ ] `07-ai-testing/benchmark-datasets.md`
+- [ ] `07-ai-testing/automation.md`
+- [ ] `07-ai-testing/observability.md`
+- [ ] `07-ai-testing/safety.md`
+- [ ] `07-ai-testing/case-studies/`
 
-## Phase 5 — Applied and ongoing
+## Phase 8 — System Design (08-system-design/)
+
+Goal: promoted to its own phase (previously nested under Software Engineering). *(subtopics TBD.)*
+
+- [ ] `08-system-design/`
+
+## Phase 9 — Applied and ongoing
 
 These don't follow the phase structure — they run continuously alongside whatever phase is active.
 
-- [ ] `research/` — papers, notes, and experiments as they come up, not on a schedule
-- [ ] `projects/` — applied implementations: Kaggle competitions/notebooks, a personal sandbox system for practicing ML/AI testing techniques (eval harnesses, drift simulation, hallucination detection), and any other applied builds worth documenting
-- [ ] `interview/` — company-specific prep, pulled from whichever earlier-phase docs are relevant
-- [ ] `resources/` — books, courses, papers, YouTube, newsletters worth revisiting
+- [ ] `09-research/` — papers, notes, and experiments as they come up, not on a schedule
+- [ ] `10-projects/` — applied implementations: Kaggle competitions/notebooks, a personal sandbox system for practicing ML/AI testing techniques (eval harnesses, drift simulation, hallucination detection), and any other applied builds worth documenting
+- [ ] `11-interview/` — company-specific prep, pulled from whichever earlier-phase docs are relevant
+- [ ] `12-resources/` — books, courses, papers, YouTube, newsletters worth revisiting
 - [ ] `assets/` — diagrams, images, cheatsheets supporting the above
 
 ---

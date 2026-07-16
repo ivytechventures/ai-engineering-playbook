@@ -74,6 +74,12 @@ Not every section will be filled on the first pass — `## My Implementation` in
 
 Supporting material that isn't a learning topic in its own right — diagrams, images, cheatsheets — lives in `assets/`, outside the numbered path.
 
+## Current Focus
+
+- **Primary topic:**
+- **Current lesson:**
+- **Last updated:**
+
 ## Progress
 
 See [Learning Roadmap](./learning-roadmap.md).

@@ -38,7 +38,7 @@ A personal AI/software engineering dictionary. Definitions here should be writte
 
 **Embedding** — a numeric vector representation of text (or other data) positioned in a high-dimensional space such that semantically similar inputs end up close together, enabling similarity search.
 
-**MCP (Model Context Protocol)** — an open standard for connecting AI models to external tools and data sources via a client-server protocol, replacing bespoke per-integration code with a single shared interface. *(see `ai-engineering/mcp/introduction.md`)*
+**MCP (Model Context Protocol)** — an open standard for connecting AI models to external tools and data sources via a client-server protocol, replacing bespoke per-integration code with a single shared interface. *(see `06-ai-engineering/mcp/introduction.md`)*
 
 **RAG (Retrieval-Augmented Generation)** — a pattern where a model's context is augmented at query time with relevant documents retrieved from an external store (often via embeddings + vector search), rather than relying solely on what was baked in during training.
 
@@ -55,3 +55,5 @@ A personal AI/software engineering dictionary. Definitions here should be writte
 **Hallucination** — when a model generates output that is fluent and confident but factually incorrect or unsupported by its input/context.
 
 **Prompt regression** — a change in model or prompt behavior, usually caused by a prompt edit or model version change, that causes previously-passing test cases to fail; the LLM-era analog of a code regression.
+
+---

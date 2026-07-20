@@ -4,6 +4,8 @@
 
 **Pattern:** HashMap / Fast Lookup
 
+**Leetcode # 1**
+
 📄 **Source Code:** `algorithms/hashmaps/code/twosum.py`
 
 Given an array of integers `nums` and an integer `target`, return the **indices** of the two numbers whose sum equals the target.
